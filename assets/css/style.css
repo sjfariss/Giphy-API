@@ -1,0 +1,57 @@
+body {
+  background: url("../images/dis2.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  color: black;
+}
+img {
+  border: 2px solid white;
+  height: 200px;
+  width: 250px;
+}
+
+.characterDiv {
+  float: left;
+  margin: 5px;
+}
+
+#gif-container {
+  clear: both;
+}
+
+p {
+  color: white;
+  text-shadow: 2px 2px 6px limegreen;
+  font-size: 18px;
+}
+button {
+  margin-left: 5px;
+  margin-bottom: 3px;
+  padding: 5px;
+  color: black;
+  border-radius: 5px;
+  background-color: rgb(169, 185, 225);
+}
+.panel-heading {
+  margin-top: 50px;
+  padding: 20px;
+  font-size: 18px;
+  color: white;
+  float: right;
+  border: 2px solid white;
+  background-color: darkblue;
+}
+
+button > span {
+  font-size: 8px;
+  vertical-align: text-top;
+  margin-left: 5px;
+  padding: 3px;
+  border: 1px solid black;
+}
+
+#add-gif {
+  color: black;
+}
+alue {
+}

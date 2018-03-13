@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Disney Gif's</title>
+
+    <!--Link for Bootstrap-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+    <!-- Rendered buttons will get dumped Here  -->
+    <div id="buttons-view"></div>
+
+    <div class="panel-heading">
+        <form id="gif-add-input">
+            <label for="gif-input">Double click first button choice for gifs to appear.</label>
+            <br>
+            <label for="gif-input">Click on gifs to start/stop animation.</label>
+            <br>
+            <label for="gif-input">Add Disney Characters</label>
+            <input type="text" id="gif-input">
+            <br>
+
+            <!-- Button triggers new character button to be added -->
+            <input id="add-gif" type="submit" value="Add your favorite Disney Character">
+        </form>
+    </div>
+
+    <!-- Gifs will get dumped here this should be added to js and not on html -->
+    <!-- <div id="gif-container">
+        <div id="gifs-go-here"></div>
+    </div> -->
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/api.js"></script>
+</body>
+
+</html>
